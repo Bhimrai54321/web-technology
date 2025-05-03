@@ -23,5 +23,29 @@ body{
 
 .navbar a:hover{
     color: red;
-    animation: reverse;
+    
+}
+
+.poster img{
+    width: 1405px;
+    align-items: center;   
+
+}
+.next-navbar{
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+     color: white;
+     padding-left: 50px;
+    
+}
+.but{
+   padding-right: 100px;
+   gap: 20px;
+  color: white;
+ 
+}
+.but button:hover{
+    color: red;
+    
 }
