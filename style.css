@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white ;
+    padding-left: 50px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+}
+
+.navbar a:hover{
+    color: red;
+    animation: reverse;
+}
