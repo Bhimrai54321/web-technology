@@ -1,0 +1,45 @@
+body{
+background-image: url(bg\ contact.jpg);
+background-position: center;
+background-size: cover;
+}
+
+div{
+ display: flex;
+ align-items: center;
+ color: white;
+ justify-content: center;
+ margin-top: 200px;
+}
+
+form{
+
+    text-align: center;
+    border-radius: 6px;   
+    color: black; 
+    background-color: #2b8da1;
+    
+   
+}
+.wid{
+    width: 316px;
+    border: 1px solid#2b8da1;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.sub{
+    padding: 10px 20px;
+    background-color:white   ;
+   border-radius: 10px;
+   border: 1px solid #2b8da1;
+   
+}
+
+textarea{
+    background-color: white;
+    border: 1px solid #2b8da1;
+    color: black;
+}
+

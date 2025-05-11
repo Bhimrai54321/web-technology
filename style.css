@@ -5,6 +5,7 @@
 }
 body{
     background-color: black;
+
 }
 
 .Header{
@@ -27,7 +28,7 @@ body{
 }
 
 .poster img{
-    width: 1405px;
+    width: 100%;
     align-items: center;   
 
 }
@@ -37,15 +38,23 @@ body{
      align-items: center;
      color: white;
      padding-left: 50px;
+     margin-top: 30px;
     
+}
+.bot{
+    padding-right: 30px;
 }
 .but{
-   padding-right: 100px;
-   gap: 20px;
-  color: white;
- 
+   padding: 8px;
+ border: 1px solid white;
+ border-radius: 15px;
+
 }
-.but button:hover{
-    color: red;
-    
+
+.bot button:hover{
+color: red;
+
 }
+
+
+
